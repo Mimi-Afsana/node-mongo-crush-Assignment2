@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Cox's Bazar",
+    "img": "cox's.png",
+    "desc": "wow wow sundarbons",
+    "views": 34,
+    "price": 1200
+  },
+  {
+    "name": "Sisu Park",
+    "img": "park.png",
+    "desc": "wow wow park",
+    "views": 30,
+    "price": 12000
+  },
+  {
+    "name": "Paharpur",
+    "img": "paharpur.png",
+    "desc": "wow wow paharpur",
+    "views": 34,
+    "price": 1200
+  }
+]
