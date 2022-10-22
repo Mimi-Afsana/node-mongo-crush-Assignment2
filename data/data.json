@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Cox's Bazar",
+    "img": "cox's.png",
+    "desc": "cox bazar looks very nice",
+    "views": 34,
+    "price": 1200
+  },
+  {
+    "name": "Sisu Park",
+    "img": "park.png",
+    "desc": "wow wow park",
+    "views": 30,
+    "price": 12000
+  },
+  {
+    "name": "Paharpur",
+    "img": "paharpur.png",
+    "desc": "wow wow paharpur",
+    "views": 34,
+    "price": 1200
+  },
+  {
+    "name": "Jaflong",
+    "img": "jaflong.png",
+    "desc": "Jaflong is one of the tourist beautiful place",
+    "views": 64,
+    "price": 2000
+  },
+  {
+    "name": "Bank kok",
+    "img": "bankkkok.png",
+    "desc": "Bank kok is one of the tourist beautiful place",
+    "views": 84,
+    "price": 20000
+  },
+  {
+    "name": "Zoo",
+    "img": "zoo.png",
+    "desc": "Zoo is one of the tourist beautiful place",
+    "views": 4,
+    "price": 200
+  },
+  {
+    "name": "Malaysia",
+    "img": "malaysia.png",
+    "desc": "Malaysia is one of the tourist beautiful place",
+    "views": 74,
+    "price": 50000
+  },
+  {
+    "name": "London",
+    "img": "london.png",
+    "desc": "London is one of the tourist beautiful place",
+    "views": 84,
+    "price": 100000
+  }
+]

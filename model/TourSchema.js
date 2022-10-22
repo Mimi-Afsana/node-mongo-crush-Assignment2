@@ -21,7 +21,7 @@ const schema = mongoose.Schema(
       min: [0, "price can not be negative"],
       trim: true,
     },
-    description: {
+    desc: {
       type: String,
       required: true,
     },
@@ -36,5 +36,5 @@ const schema = mongoose.Schema(
   }
 );
 
-const Tour = new mongoose.model("Tour", tourSchema);
+const Tour = new mongoose.model("Tour", schema);
 module.exports = Tour;

@@ -9,9 +9,10 @@ const saveService = async (data) => {
 // get all tour service
 const getService = async (querys) => {
   const tours = await Tour.find({})
-    .sort(querys.sortBy)
+    .skip(querys.skip)
+    .limit(querys.limit)
     .select(querys.fields)
-    .limit(querys.limit);
+    .sort(querys.sortBy);
 
   return tours;
 };
@@ -30,11 +31,20 @@ const updateServiceById = async (id, data) => {
 
 const getServiceById = async (toorId) => {
   const tour = await Tour.findById(toorId);
+  return tour;
 };
 
 // get three tour service
 
-const threeTour = async (querys) => {
+const getThreeTour = async (querys) => {
   const tours = await Tour.find({}).sort(querys.sortBy).limit(querys.limit);
   return tours;
+};
+
+module.exports = {
+  saveService,
+  getService,
+  updateServiceById,
+  getServiceById,
+  getThreeTour,
 };
