@@ -18,11 +18,11 @@
 
 # Get a tour details by id
 
-https://secure-meadow-15273.herokuapp.com/tours/6353a5664b69847fc1196aa7
+- https://secure-meadow-15273.herokuapp.com/api/v1/tours/6353a5774b69847fc1196aaa
 
 # Update a tour
 
-- https://secure-meadow-15273.herokuapp.com/tour/6353a5664b69847fc1196aa7
+- https://secure-meadow-15273.herokuapp.com/api/v1/tour/6353a5774b69847fc1196aaa
 
 # Get top 3 viewed tour
 
