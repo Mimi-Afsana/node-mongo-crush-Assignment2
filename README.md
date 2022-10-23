@@ -4,17 +4,17 @@
 
 # Get all tours
 
-- https://secure-meadow-15273.herokuapp.com/tours
+- https://secure-meadow-15273.herokuapp.com/api/v1/tours
 
 # Query tours
 
-- https://secure-meadow-15273.herokuapp.com/tours?fields=name
-- https://secure-meadow-15273.herokuapp.com/tours?fields=img
-- https://secure-meadow-15273.herokuapp.com/tours?sort=price
+- https://secure-meadow-15273.herokuapp.com/api/v1/tours?fields=name
+- https://secure-meadow-15273.herokuapp.com/api/v1/tours?fields=img
+- https://secure-meadow-15273.herokuapp.com/api/v1/tours?sort=price
 
 # POST Add a tour
 
-- https://secure-meadow-15273.herokuapp.com/tours
+- https://secure-meadow-15273.herokuapp.com/api/v1/tours
 
 # Get a tour details by id
 
@@ -25,7 +25,9 @@ https://secure-meadow-15273.herokuapp.com/tours/6353a5664b69847fc1196aa7
 - https://secure-meadow-15273.herokuapp.com/tour/6353a5664b69847fc1196aa7
 
 # Get top 3 viewed tour
-- https://secure-meadow-15273.herokuapp.com/tour/trending
+
+- https://secure-meadow-15273.herokuapp.com/api/v1/tour/trending
 
 # Get top 3 cheapest tours
-- https://secure-meadow-15273.herokuapp.com/tour/cheapest
+
+- https://secure-meadow-15273.herokuapp.com/api/v1/tour/cheapest
