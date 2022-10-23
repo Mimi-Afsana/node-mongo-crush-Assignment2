@@ -18,7 +18,7 @@ const schema = mongoose.Schema(
     price: {
       type: Number,
       required: true,
-      min: [0, "price can not be negative"],
+      min: 0,
       trim: true,
     },
     desc: {

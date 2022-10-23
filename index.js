@@ -17,8 +17,7 @@ app.use(express.json());
 dbConnect();
 
 // route
-app.use("/tours", router);
-app.use("/tour", router);
+app.use("/api/v1", router);
 
 app.get("/", (req, res) => {
   res.send("Tour server is running");
